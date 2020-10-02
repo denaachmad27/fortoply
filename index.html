@@ -1,64 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/custom.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TMIP 2011 UNPAD</title>
+    <link href="/jam.css" rel="stylesheet" type="text/css" />
+    <link href="/public/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link
+      href="/public/font-awesome.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="/public/jquery-3.5.1.min.js"></script>
+    <script src="/public/bootstrap.bundle.min.js"></script>
+    <script src="/public/jquery.countdown.min.js"></script>
+    <script src="/jam.js"></script>
+  </head>
+  <body>
     <div class="container">
+      <div class="container py-5">
+        <!-- For demo purpose-->
+        <header class="text-center">
+          <h1 class="display-4 mb-4">SATU DEKADE TMIP 2011</h1>
+          <p class="font-italic text-muted mb-0">Segera hadir</p>
+        </header>
 
-        <nav class="navbar navbar-expand-lg navbar-light mb-5">
-            <a class="navbar-brand font-weight-bold" href="#">
-                <img src="/Bootstrap/img/logo.png" width="30" height="30" class="d-inline-block align-top " alt="" loading="lazy">
-                Productly
-              </a>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item active align-self-center">
-                  <a class="nav-link" href="#">Product</a>
-                </li>
-                <li class="nav-item active align-self-center">
-                    <a class="nav-link" href="#">Customers</a>
-                  </li>
-                  <li class="nav-item active align-self-center">
-                    <a class="nav-link" href="#">Pricing</a>
-                  </li>
-                  <li class="nav-item active align-self-center">
-                    <a class="nav-link" href="#">Resources</a>
-                  </li>
-                  <a class="btn px-4 btn-secondary ml-5" href="#" role="button">Sign In</a>
-                  <a class="btn px-4 btn-primary ml-2" href="#" role="button">Sign Up</a>
-              </ul>
-              
+        <div class="py-5">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <!-- Countdown 1-->
+              <div
+                class="rounded bg-gradient-1 text-white shadow p-5 text-center mb-5"
+              >
+                <p class="mb-4 font-weight-bold text-uppercase">
+                  Dalam hitungan :
+                </p>
+                <div
+                  id="clock-b"
+                  class="countdown-circles d-flex flex-wrap justify-content-center pt-4"
+                ></div>
+              </div>
             </div>
-          </nav>
-
-        <div class="row">
-            <div class="col my-auto" >
-                <h1 class="font-weight-bold mb-3">The Design Thinking superpowers</h1>
-                <p class="mb-4">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
-                <a class="btn btn-primary" href="#" role="button">Get started</a>
-            </div>
-            <div class="col d-none d-sm-block">
-                <img width="600" src="img/hero.png" alt="">
-            </div>
+          </div>
         </div>
-        
+      </div>
     </div>
-
-    <script
-        src="https://code.jquery.com/jquery-3.5.1.js"
-        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-        crossorigin="anonymous"></script>
-
-        <div>
-          <a href="#">Link</a>
-        </div>
-
-</body>
+  </body>
 </html>
