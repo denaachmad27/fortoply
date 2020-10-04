@@ -103,3 +103,14 @@ body {
 body {
   padding-top: 50px;
 }
+
+/* @media (min-width: 768px) {
+  .navbar-header {
+    text-align: center;
+  }
+
+  .navbar-toggle {
+    float: none;
+    margin-right: 0;
+  }
+} */
